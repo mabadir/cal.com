@@ -11,6 +11,8 @@ import timeZone from "dayjs/plugin/timezone";
 import toArray from "dayjs/plugin/toArray";
 import utc from "dayjs/plugin/utc";
 
+import utcPlugin from "./utcPlugin";
+
 dayjs.extend(customParseFormat);
 dayjs.extend(dayjsBusinessTime);
 dayjs.extend(isBetween);
@@ -19,6 +21,7 @@ dayjs.extend(localizedFormat);
 dayjs.extend(relativeTime);
 dayjs.extend(timeZone);
 dayjs.extend(toArray);
+dayjs.extend(utcPlugin);
 dayjs.extend(utc);
 dayjs.extend(minmax);
 
